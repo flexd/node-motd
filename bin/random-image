@@ -1,3 +1,14 @@
-#!/bin/sh
+#!/usr/bin/env node
 
-node lib/motd.js
+var motd = require('../lib/motd');
+
+var pictureTube = require('picture-tube')
+
+var request = require('request');
+
+motd.fetchUrls(function (imageURLs) {
+  var randomIndex = Math.floor(Math.random() * imageURLs.length)
+  var randomImage = imageURLs[randomIndex]
+  request(randomImage).pipe(pictureTube()).pipe(process.stdout)
+});
+
