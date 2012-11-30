@@ -1,6 +1,6 @@
 {
   "name": "motd",
-  "version": "0.0.1",
+  "version": "0.0.1a",
   "preferGlobal": "true",
   "bin": {
     "random-image": "./bin/random-image"
