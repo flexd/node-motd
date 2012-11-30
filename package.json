@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "preferGlobal": "true",
   "bin": {
-    "random-motd": "./bin/random-motd"
+    "random-image": "./bin/random-image"
   },
   "description": "A picture crawling motd thing that displays a random image in the terminal when run.",
   "main": "./lib/motd",
@@ -22,5 +22,5 @@
     "picture-tube": "0.0.4",
     "cheerio": "0.10.3",
     "request": "2.12.0"
-  },
+  }
 }
