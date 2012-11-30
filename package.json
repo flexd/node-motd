@@ -6,7 +6,7 @@
     "random-motd": "./bin/random-motd"
   },
   "description": "A picture crawling motd thing that displays a random image in the terminal when run.",
-  "main": "./lib/motd.js",
+  "main": "./lib/motd",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,4 +18,9 @@
   ],
   "author": "Kristoffer Berdal <web@flexd.net>",
   "license": "BSD",
+  "dependencies": {
+    "picture-tube": "0.0.4",
+    "cheerio": "0.10.3",
+    "request": "2.12.0"
+  },
 }
