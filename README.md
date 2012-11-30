@@ -6,10 +6,11 @@ This is basically the tutorial put together in a module, I plan on expanding it 
 * Cache images it fetches locally and display a random image from those instead of going online every time
 * Possibly scale down the bigger images so you just get something fun in the terminal.
 * Perhaps add an option to not always display an image.
+
 How to use
 ==========
 
-Run random-image and you will see a random 256-color image in your terminal.
+Run ```random-image``` and you will see a random 256-color image in your terminal.
 
 Example
 =======
@@ -17,6 +18,6 @@ Example
 ![How to use](http://cognitive.io/uploaded/images/node-motd.jpg "Example")
 Requirements
 ============
-cheerio
-request
-picture-tube
+* cheerio
+* request
+* picture-tube
